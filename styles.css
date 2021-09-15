@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+.cap-sec {
+  height: 100vh;
+  width: 100vw;
+}
+.cap-container {
+  width: 100%;
+  height: 100%;
+}
+.cap-div {
+  height: 100%;
+  width: 100%;
+}
+.pc-logo {
+  width: 80%;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+h2 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.unmute {
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+.mute {
+  position: relative;
+  left: 55%;
+  top: 50%;
+}
+#vid1 {
+  width: 100%;
+  height: 100%;
+}
