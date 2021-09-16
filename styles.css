@@ -48,3 +48,9 @@ h2 {
   height: 100%;
   margin-top: -22px;
 }
+#pc-emblem {
+  width: 8%;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
