@@ -1,6 +1,3 @@
-const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 800,
-});
 const unmuteButton = document.querySelector(".unmute");
 const muteButton = document.querySelector(".mute");
 const iframe = document.querySelector("iframe");
@@ -12,4 +9,16 @@ unmuteButton.addEventListener("click", () => {
 
 muteButton.addEventListener("click", () => {
   player.setVolume(0);
+});
+
+LottieInteractivity.create({
+  mode: "click",
+  player: "#volume-lottie",
+  actions: [
+    {
+      visibility: [0, 1],
+      type: "play",
+      frames: [0, 100],
+    },
+  ],
 });

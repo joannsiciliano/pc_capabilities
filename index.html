@@ -6,16 +6,26 @@
     <!-- //put all ur script tags in here (ex. when using a library but also to connect js files) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://player.vimeo.com/api/player.js" defer></script>
+
+    <!--Lottie file libraries-->
+    <script
+      src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"
+      defer
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/lottie-interactive@latest/dist/lottie-interactive.js"
+      defer
+    ></script>
     <script
       src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
       defer
     ></script>
+
+    <!--css/js-->
     <link rel="stylesheet" href="styles.css" />
     <script src="index.js" defer />
-    <script
-      src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"
-      defer
-    ></script>
+
     <title>Production Club Capabilities</title>
   </head>
   <body>
@@ -52,6 +62,18 @@
               autoplay
             ></lottie-player>
           </a>
+          <lottie-player
+            id="volume-lottie"
+            src="https://assets1.lottiefiles.com/datafiles/Zj0Lkp2k2ZLAIJvGrhgWFf8hUdHaqNOoVIDWkNlH/mute.json"
+            background="transparent"
+            speed="1"
+            style="
+              width: 50px;
+              height: 50px;
+              margin-top: -50px;
+              margin-left: 20px;
+            "
+          ></lottie-player>
         </div>
       </section>
       // Production Club info
