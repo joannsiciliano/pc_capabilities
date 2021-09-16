@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    //put all ur script tags in here (ex. when using a library but also to connect js files)
+    <!-- //put all ur script tags in here (ex. when using a library but also to connect js files) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="https://player.vimeo.com/api/player.js" defer></script>
     <link rel="stylesheet" href="styles.css" />
     <script src="index.js" defer />
 
@@ -13,23 +13,26 @@
   </head>
   <body>
     <section class="cap-sec">
-      <container class="cap-container">
+      <div class="cap-container">
         <div class="cap-div">
           <button class="unmute">unmute</button>
           <button class="mute">mute</button>
-                <iframe
-                id="video"
-            src="https://player.vimeo.com/video/599871208?badge=0&amp;background=1;autopause=0&amp;muted=1;&amp;player_id=0&amp;app_id=58479&amp;h=4b937c043c"
-            width="100%"
-            height="100%"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-            title="Sequence-02_reduced-1"
-          ></iframe>
+          <div class="videoDiv">
+            <iframe
+              src="https://player.vimeo.com/video/599871208?background=1h=3860c47090&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              width="1920"
+              height="1080"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              title="2020_30SEC_REEL_V6_1"
+              data-ready="false"
+            ></iframe>
+          </div>
         </div>
-      </container>
+      </div>
     </section>
+    // Production Club info
     <section class="cap-sec">
       <container class="cap-container">
         <div class="cap-div">
@@ -38,29 +41,6 @@
             Production Club is a multidisciplinary team that creates the shit
             that brings people together
           </h2>
-        </div>
-      </container>
-    </section>
-    <section class="cap-sec">
-      <container class="cap-container">
-        <div class="cap-div">
-          <button class="unmute">unmute</button>
-          <button class="mute">mute</button>
-          <iframe
-            src="https://player.vimeo.com/video/599872131?badge=0&amp;background=1;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=4b937c043c"
-            width="100%"
-            height="100%"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-            title="Sequence-02_reduced-1"
-          ></iframe>
-        </div>
-      </container>
-    </section>
-    <section class="cap-sec">
-      <container class="cap-container">
-  <iframe src="https://player.vimeo.com/video/562370006?background=1&amp;muted=1" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
       </container>
     </section>
