@@ -8,82 +8,89 @@
     <script src="https://player.vimeo.com/api/player.js" defer></script>
     <link rel="stylesheet" href="styles.css" />
     <script src="index.js" defer />
-
+    <script
+      src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"
+      defer
+    ></script>
     <title>Production Club Capabilities</title>
   </head>
   <body>
-    <img src="./assets/pc-emblem.svg" id="pc-emblem" />
-    <section class="cap-sec" id="pc-info">
-      <div class="cap-container">
-        <div class="cap-div">
-          <button class="unmute">unmute</button>
-          <button class="mute">mute</button>
-          <div class="videoDiv">
-            <iframe
-              src="https://player.vimeo.com/video/599871208?background=1h=3860c47090&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              width="1920"
-              height="1080"
-              frameborder="0"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
-              title="2020_30SEC_REEL_V6_1"
-              data-ready="false"
-            ></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-    // Production Club info
-    <section class="cap-sec-info">
-      <container class="cap-container">
-        <div class="cap-div">
-          <img src="./assets/production-club-logo.svg" class="pc-logo" />
-          <h2>
-            Production Club is a multidisciplinary team that creates the shit
-            that brings people together
-          </h2>
-          <h3>
-            We collaborate with select Music Artists, Sports Teams, Marketing
-            Executives, and Brands to oversee multi-million dollar initiatives,
-            managing projects A-Z.
-          </h3>
-          <div class="link-grid">
-            <div class="col-1">
-              <span class="link-col-header"
-                >Events, Conferences and Parties</span
-              >
-              <a href="">Intersect Festival</a>
-              <a href=""> AWS re:Play, Conference, MegaParty</a>
-              <a href=""> Notch's .party(), legendary dome event </a>
-              <a href="">YouTube Gaming, Activations & AfterParty @ E3 </a>
-              <a href=""> Riot Games, GRC Party </a>
-              <a href="">Notch's 'Hellcrest', Halloween Party </a>
-            </div>
-            <div class="col-2">
-              <span class="link-col-header"
-                >Artist Performances, Tours, and Broadcast</span
-              >
-              <a href="">Los Angeles Rams, Player Introductions</a>
-              <a href="">The Chainsmokers x Vevo, 'World War Joy' Tour </a>
-              <a href="">Electric Jungle Main Stage, Shenzhen China</a>
-              <a href="">Skrillex 'Spaceship' @ Coachella with Red bull</a>
-              <a href="">Zedd @ Red Rocks</a>
-              <a href=""> Grimes @ Art Basel</a>
-            </div>
-            <div class="col-3">
-              <span class="link-col-header"
-                >Art Direction, Branding, and visuals</span
-              >
-              <a href="">Production Club visuals and VFX Reel</a>
-              <a href="">AWS re:Invent, Creative Direction </a>
-              <a href="">AWS Global Events, Art and Branding</a>
-              <a href="">'Mainframe' Animated Short</a>
-              <a href="">DevCon IV, Ethereum Conference in Prague</a>
-              <a href="">Deadmau5 Cube Visuals</a>
+    <container class="master-container">
+      <a href="#pc-info" id="pc-info-link">
+        <img src="./assets/pc-emblem.svg" id="pc-emblem" />
+      </a>
+      <section class="cap-sec">
+        <div class="cap-container">
+          <div class="cap-div">
+            <button class="unmute">unmute</button>
+            <button class="mute">mute</button>
+            <div class="videoDiv">
+              <iframe
+                src="https://player.vimeo.com/video/599871208?background=1h=3860c47090&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                width="1920"
+                height="1080"
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+                title="2020_30SEC_REEL_V6_1"
+                data-ready="false"
+              ></iframe>
             </div>
           </div>
         </div>
-      </container>
-    </section>
+      </section>
+      // Production Club info
+      <section class="cap-sec-info" id="pc-info">
+        <container class="cap-container">
+          <div class="cap-div">
+            <img src="./assets/production-club-logo.svg" class="pc-logo" />
+            <h2>
+              Production Club is a multidisciplinary team that creates the shit
+              that brings people together
+            </h2>
+            <h3>
+              We collaborate with select Music Artists, Sports Teams, Marketing
+              Executives, and Brands to oversee multi-million dollar
+              initiatives, managing projects A-Z.
+            </h3>
+            <div class="link-grid">
+              <div class="col-1">
+                <span class="link-col-header"
+                  >Events, Conferences and Parties</span
+                >
+                <a href="">Intersect Festival</a>
+                <a href=""> AWS re:Play, Conference, MegaParty</a>
+                <a href=""> Notch's .party(), legendary dome event </a>
+                <a href="">YouTube Gaming, Activations & AfterParty @ E3 </a>
+                <a href=""> Riot Games, GRC Party </a>
+                <a href="">Notch's 'Hellcrest', Halloween Party </a>
+              </div>
+              <div class="col-2">
+                <span class="link-col-header"
+                  >Artist Performances, Tours, and Broadcast</span
+                >
+                <a href="">Los Angeles Rams, Player Introductions</a>
+                <a href="">The Chainsmokers x Vevo, 'World War Joy' Tour </a>
+                <a href="">Electric Jungle Main Stage, Shenzhen China</a>
+                <a href="">Skrillex 'Spaceship' @ Coachella with Red bull</a>
+                <a href="">Zedd @ Red Rocks</a>
+                <a href=""> Grimes @ Art Basel</a>
+              </div>
+              <div class="col-3">
+                <span class="link-col-header"
+                  >Art Direction, Branding, and visuals</span
+                >
+                <a href="">Production Club visuals and VFX Reel</a>
+                <a href="">AWS re:Invent, Creative Direction </a>
+                <a href="">AWS Global Events, Art and Branding</a>
+                <a href="">'Mainframe' Animated Short</a>
+                <a href="">DevCon IV, Ethereum Conference in Prague</a>
+                <a href="">Deadmau5 Cube Visuals</a>
+              </div>
+            </div>
+          </div>
+        </container>
+      </section>
+    </container>
   </body>
 </html>

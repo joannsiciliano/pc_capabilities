@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-
+html {
+  scroll-behavior: smooth;
+  /* overscroll-behavior-y: none; */
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +13,15 @@ body {
   background-color: black;
   overflow-x: hidden;
 }
-
+section {
+  scroll-snap-align: start;
+  height: 100vh;
+  width: 100vw;
+}
+.master-container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
 .cap-sec {
   height: 100vh;
   width: 100vw;
@@ -22,10 +33,12 @@ body {
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  scroll-snap-align: start;
 }
 .cap-container {
   width: 100%;
   height: 100%;
+  scroll-snap-align: start;
 }
 .cap-div {
   height: 100%;
@@ -73,6 +86,10 @@ a {
   position: fixed;
   top: 15px;
   left: 15px;
+}
+#pc-info-link {
+  margin: 0;
+  padding: 0;
 }
 .link-grid {
   margin-top: 50px;
