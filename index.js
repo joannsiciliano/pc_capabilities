@@ -1,5 +1,5 @@
 const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 300,
+  speed: 800,
 });
 const unmuteButton = document.querySelector(".unmute");
 const muteButton = document.querySelector(".mute");
