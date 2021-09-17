@@ -10,15 +10,3 @@ unmuteButton.addEventListener("click", () => {
 muteButton.addEventListener("click", () => {
   player.setVolume(0);
 });
-
-LottieInteractivity.create({
-  mode: "click",
-  player: "#volume-lottie",
-  actions: [
-    {
-      visibility: [0, 1],
-      type: "play",
-      frames: [0, 100],
-    },
-  ],
-});
