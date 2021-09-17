@@ -1,1 +1,1 @@
-# pc_capabilities
+This is an attempt to clone the PC capabilities page from Wordpress to html/css/js to better understand Webflow. Could also be practice between Jo/Max to collaborate on the same project and learn how github works !
